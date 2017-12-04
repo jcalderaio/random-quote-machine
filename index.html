@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="./style.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <title>Random Quote Machine</title>
+</head>
+
+<body>
+  <div class="container">
+    <div id="enclosing">
+      <h1 class="text-center">Random Quote Machine</h1>
+      <p id="intro">Here are some of my favorite quotes. Please press the button and a new random quote will be revealed.</p>
+      <div id="button-enclose">
+        <button class="btn btn-primary" id="tweet-button"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet</button>
+        <button class="btn btn-primary float-right" id="get-quote-button">New Quote</button>
+      </div>
+      <div id="quote-background">
+        <div id="quote">
+          <p id="quote-content" class="text-center" />
+          <p class="font-weight-bold float-right" id="quote-title" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- jQuery JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <!-- Custom JS-->
+  <script src="./script.js"></script>
+  <!-- Tether.js (needed for Bootstrap)-->
+  <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+  <!-- Bootstrap JS-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+
+</html>

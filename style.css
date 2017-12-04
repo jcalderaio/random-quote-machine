@@ -1,0 +1,45 @@
+body {
+  font-size: 100%;
+  background: url(http://www.photos-public-domain.com/wp-content/uploads/2010/09/white_clouds_with_airplane_trail.jpg);
+  padding-bottom: 50px;
+}
+/*Header*/
+div h1 {
+  padding: 20px;
+  font-size: 4em;
+  font-style: italic;
+  font-family: Coronetscript;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+}
+#enclosing {
+  width: 70%;
+  margin: auto;
+}
+#intro {
+  padding: 20px;
+  font-size: 20px;
+}
+button {
+  margin: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: yellow;
+  border-color: yellow;
+  color: black;
+}
+#quote-background {
+  background: url(https://images.homedepot-static.com/productImages/e0dae6a7-48b1-4649-a46a-77495bc8bff4/svn/mirage-wallpaper-991-68251-64_1000.jpg);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  overflow: auto; /*use this to float the buttons left and right*/
+}
+#button-enclose {
+  overflow: auto;
+  margin-bottom: 40px;
+}
+#quote {
+  padding: 40px 40px 40px 40px;
+  font-size: 20px;
+}
